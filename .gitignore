@@ -1,0 +1,5 @@
+.tempdb/*
+bin/*
+*.epf
+*.txt
+*.todo
