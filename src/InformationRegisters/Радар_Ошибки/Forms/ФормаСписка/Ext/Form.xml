@@ -185,6 +185,48 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
+				<ColumnGroup name="Группа8" id="82">
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="83"/>
+					<ChildItems>
+						<ColumnGroup name="Группа9" id="99">
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="100"/>
+							<ChildItems>
+								<LabelField name="Тип" id="96">
+									<DataPath>Список.Тип</DataPath>
+									<ContextMenu name="ТипКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="98"/>
+								</LabelField>
+								<LabelField name="Серьезность" id="87">
+									<DataPath>Список.Серьезность</DataPath>
+									<ContextMenu name="СерьезностьКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="СерьезностьРасширеннаяПодсказка" id="89"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="Группа10" id="101">
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="102"/>
+							<ChildItems>
+								<LabelField name="Правило" id="93">
+									<DataPath>Список.Правило</DataPath>
+									<ContextMenu name="ПравилоКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ПравилоРасширеннаяПодсказка" id="95"/>
+								</LabelField>
+								<LabelField name="Приоритет" id="90">
+									<DataPath>Список.Приоритет</DataPath>
+									<ContextMenu name="ПриоритетКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ПриоритетРасширеннаяПодсказка" id="92"/>
+								</LabelField>
+								<LabelField name="МинутНаИсправление" id="84">
+									<DataPath>Список.МинутНаИсправление</DataPath>
+									<ContextMenu name="МинутНаИсправлениеКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="МинутНаИсправлениеРасширеннаяПодсказка" id="86"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>

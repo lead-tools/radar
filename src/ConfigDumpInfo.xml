@@ -61,9 +61,12 @@
 			<Metadata name="Enum.ФорматыВыгрузки.EnumValue.EDT" id="1eeacffb-de93-45b4-abf8-117b2e9e509d"/>
 			<Metadata name="Enum.ФорматыВыгрузки.EnumValue.XML" id="766224ed-50d6-4a81-b07a-2cb90fef5593"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Радар_Ошибки" id="dd08139d-e871-4139-84b8-00fa48315512" configVersion="0b61026a2dc749bf07ed1379eb5db267d7ddac5b">
+		<Metadata name="InformationRegister.Радар_Ошибки" id="dd08139d-e871-4139-84b8-00fa48315512" configVersion="8d6b7a418a0fc66162bfcbf27bc9054cb8f44f9c">
+			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Тип" id="0ab11be9-bf29-42ef-8b6e-e204a2552a08"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Dimension.Модуль" id="20b34fc6-f1e9-4f3e-8bb6-a68c76d9a6b2"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.НомерКолонкиКонца" id="2513f630-8cc7-405d-a8ed-d1ac531c1436"/>
+			<Metadata name="InformationRegister.Радар_Ошибки.Resource.МинутНаИсправление" id="26fc9dc4-2c23-4711-98e9-05da396cadaa"/>
+			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Правило" id="307e428b-fda8-4b7b-b0ed-ca0b68020991"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.ПозицияНачала" id="4aa2f535-f884-4f94-9c9a-9417dcee3e66"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Dimension.Проект" id="517063c5-c231-4170-bcd1-52d86ee7a92b"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Код" id="5d4fc4b2-d1b7-41f8-bb3e-b9b1b7c894c3"/>
@@ -71,13 +74,15 @@
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.ЕстьЗамена" id="646eb9a9-f679-4053-85a1-296b8752a569"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.НомерСтрокиНачала" id="746147c6-c0ab-42e4-82e5-83fcdcea52ed"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Источник" id="7aed386e-2ee6-4777-b4f5-26e8aaba167b"/>
+			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Серьезность" id="86a85565-ad75-402c-a250-73bc43169724"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Dimension.Ссылка" id="96bda676-a11d-46a1-bf7d-d2a2ccd7ebe9"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.ПозицияКонца" id="ae4b443d-a500-4105-91c0-a1b860b78dc7"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.НомерКолонкиНачала" id="bea23f71-7fcd-4a49-8a4c-004accdaff63"/>
 			<Metadata name="InformationRegister.Радар_Ошибки.Resource.НомерСтрокиКонца" id="e02acadc-f4ad-4eec-b123-1ca6074a6bf5"/>
+			<Metadata name="InformationRegister.Радар_Ошибки.Resource.Приоритет" id="e99df481-8181-4dfc-afe1-3613806ca738"/>
 		</Metadata>
 		<Metadata name="InformationRegister.Радар_Ошибки.Form.ФормаСписка" id="44a051c2-3395-4dfc-9d51-e49786c90bc7" configVersion="f361be80ef19a4762184fdf516630b01f980b71e"/>
-		<Metadata name="InformationRegister.Радар_Ошибки.Form.ФормаСписка.Form" id="44a051c2-3395-4dfc-9d51-e49786c90bc7.0" configVersion="86b4246778f20b1004e1a068dba0bbb0facf6090"/>
+		<Metadata name="InformationRegister.Радар_Ошибки.Form.ФормаСписка.Form" id="44a051c2-3395-4dfc-9d51-e49786c90bc7.0" configVersion="1645a96d793c502aefe92fc45795ec5664c6ea02"/>
 		<Metadata name="InformationRegister.Радар_Проверки" id="37bfcc51-bf5c-4998-8479-8e4682f9c606" configVersion="f5c08f177174652658291d4da09f30c030ee6fee">
 			<Metadata name="InformationRegister.Радар_Проверки.Dimension.Проект" id="17f6d7ae-e0ce-4ed1-b39d-81a668a7950c"/>
 			<Metadata name="InformationRegister.Радар_Проверки.Resource.ВозниклоИсключение" id="1f518407-57b1-4406-988a-47562efe6a6a"/>
