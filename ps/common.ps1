@@ -13,6 +13,7 @@ function complete($percent, $activity) {
 
 $list = @{
     НеиспользуемаяПеременная = "Плагины", "plugins\НеиспользуемаяПеременная\src"
+    ЗапросВЦикле             = "Плагины", "plugins\ЗапросВЦикле\src"
 }
 
 function Cmd_epf ($command, $description){
