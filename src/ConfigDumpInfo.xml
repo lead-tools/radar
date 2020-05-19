@@ -29,8 +29,8 @@
 		<Metadata name="Catalog.Радар_Проекты.Command.ВыполнитьАнализ.CommandModule" id="07f461b6-bcf5-4f04-8c98-d4eb9575db08.2" configVersion="03541d519388e1f797f6d27cea640d3f37cc4bd3"/>
 		<Metadata name="Catalog.Радар_Проекты.Form.ФормаСписка" id="cba26ade-f38d-4580-9cf9-62a0fce82335" configVersion="32d223947af37314a0d41bf47e6e8de1b0941be8"/>
 		<Metadata name="Catalog.Радар_Проекты.Form.ФормаСписка.Form" id="cba26ade-f38d-4580-9cf9-62a0fce82335.0" configVersion="416a145fd242d1fc2ed8098d2273de0f93cbb8f0"/>
-		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента" id="4ffe7d63-7e29-4148-a61e-8c138677fe29" configVersion="160e67836873e943664758152aa2d8461bfb7ee5"/>
-		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента.Form" id="4ffe7d63-7e29-4148-a61e-8c138677fe29.0" configVersion="4ecdca542c859021a948ff5b9688ac828c4b1979"/>
+		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента" id="4ffe7d63-7e29-4148-a61e-8c138677fe29" configVersion="deecc215a79ab01928e1cfefe63dcc3b207bf47c"/>
+		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента.Form" id="4ffe7d63-7e29-4148-a61e-8c138677fe29.0" configVersion="1bbae6d8755aca2a162c435421891ff44e8ec11a"/>
 		<Metadata name="Catalog.Радар_Проекты.ObjectModule" id="fe4d773f-1c4f-4703-9272-c0496c4b966f.0" configVersion="d1488b7ba6cf486ac1fbf6377627de6045f2a91f"/>
 		<Metadata name="CommonModule.Радар_Задания" id="23a6b190-3fa9-4309-a180-2f2f9e12f044" configVersion="6781a314339b946078882cd48efde059fea6f5fd"/>
 		<Metadata name="CommonModule.Радар_Задания.Module" id="23a6b190-3fa9-4309-a180-2f2f9e12f044.0" configVersion="0e37c6876bacc0fbc2ee241474c0370f58986a7d"/>

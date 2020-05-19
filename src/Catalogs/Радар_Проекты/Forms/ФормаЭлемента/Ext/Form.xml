@@ -151,6 +151,24 @@
 		</Attribute>
 	</Attributes>
 	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>InformationRegister.Радар_Ошибки.StandardCommand.OpenByValue.Проект</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.Радар_Проверки.StandardCommand.OpenByValue.Проект</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
 		<CommandBar>
 			<Item>
 				<Command>0:3812776e-4504-4fc3-9b85-2c929420f4b8</Command>
