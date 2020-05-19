@@ -74,6 +74,7 @@
 			<DataProcessor>Радар_Посетитель</DataProcessor>
 			<DataProcessor>Радар_КонструкторГлобальногоОкружения</DataProcessor>
 			<DataProcessor>Радар_Консоль</DataProcessor>
+			<DataProcessor>Радар_Навигатор</DataProcessor>
 			<InformationRegister>Радар_Проверки</InformationRegister>
 			<InformationRegister>Радар_Ошибки</InformationRegister>
 			<InformationRegister>Радар_ХешСуммы</InformationRegister>

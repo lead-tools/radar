@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Радар_КонструкторГлобальногоОкружения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Радар_Проекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.Радар_Тренд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Радар_Навигатор</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

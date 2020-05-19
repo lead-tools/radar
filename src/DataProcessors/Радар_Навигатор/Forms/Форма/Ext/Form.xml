@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаПользовательскихНастроек" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="79"/>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="71">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="72"/>
+			<ChildItems>
+				<Table name="Ошибки" id="1">
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>Ошибки</DataPath>
+					<RowPictureDataPath>Ошибки.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<UserSettingsGroup>ГруппаПользовательскихНастроек</UserSettingsGroup>
+					<ContextMenu name="ОшибкиКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="ОшибкиКоманднаяПанель" id="3"/>
+					<ExtendedTooltip name="ОшибкиРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="ОшибкиСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>Ошибки</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОшибкиСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ОшибкиСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ОшибкиСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>Ошибки</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОшибкиСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="ОшибкиСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ОшибкиУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>Ошибки</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ОшибкиУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ОшибкиУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ОшибкиВыбор</Event>
+					</Events>
+					<ChildItems>
+						<ColumnGroup name="ОшибкиГруппа1" id="76">
+							<Group>InCell</Group>
+							<ExtendedTooltip name="ОшибкиГруппа1РасширеннаяПодсказка" id="77"/>
+							<ChildItems>
+								<LabelField name="ОшибкиПроект" id="53">
+									<DataPath>Ошибки.Проект</DataPath>
+									<ContextMenu name="ОшибкиПроектКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ОшибкиПроектРасширеннаяПодсказка" id="55"/>
+								</LabelField>
+								<LabelField name="ОшибкиМодуль" id="26">
+									<DataPath>Ошибки.Модуль</DataPath>
+									<ContextMenu name="ОшибкиМодульКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="ОшибкиМодульРасширеннаяПодсказка" id="28"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<LabelField name="ОшибкиТекст" id="62">
+							<DataPath>Ошибки.Текст</DataPath>
+							<ContextMenu name="ОшибкиТекстКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ОшибкиТекстРасширеннаяПодсказка" id="64"/>
+						</LabelField>
+						<LabelField name="ОшибкиНомерСтрокиНачала" id="38">
+							<DataPath>Ошибки.НомерСтрокиНачала</DataPath>
+							<ContextMenu name="ОшибкиНомерСтрокиНачалаКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ОшибкиНомерСтрокиНачалаРасширеннаяПодсказка" id="40"/>
+						</LabelField>
+						<LabelField name="ОшибкиИсточник" id="17">
+							<DataPath>Ошибки.Источник</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиИсточникКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ОшибкиИсточникРасширеннаяПодсказка" id="19"/>
+						</LabelField>
+						<LabelField name="ОшибкиМинутНаИсправление" id="23">
+							<DataPath>Ошибки.МинутНаИсправление</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиМинутНаИсправлениеКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ОшибкиМинутНаИсправлениеРасширеннаяПодсказка" id="25"/>
+						</LabelField>
+						<LabelField name="ОшибкиПравило" id="47">
+							<DataPath>Ошибки.Правило</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиПравилоКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ОшибкиПравилоРасширеннаяПодсказка" id="49"/>
+						</LabelField>
+						<LabelField name="ОшибкиПриоритет" id="50">
+							<DataPath>Ошибки.Приоритет</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиПриоритетКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ОшибкиПриоритетРасширеннаяПодсказка" id="52"/>
+						</LabelField>
+						<LabelField name="ОшибкиСерьезность" id="59">
+							<DataPath>Ошибки.Серьезность</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиСерьезностьКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ОшибкиСерьезностьРасширеннаяПодсказка" id="61"/>
+						</LabelField>
+						<LabelField name="ОшибкиТип" id="65">
+							<DataPath>Ошибки.Тип</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиТипКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="ОшибкиТипРасширеннаяПодсказка" id="67"/>
+						</LabelField>
+						<LabelField name="ОшибкиПуть" id="56">
+							<DataPath>Ошибки.Путь</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ОшибкиПутьКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ОшибкиПутьРасширеннаяПодсказка" id="58"/>
+						</LabelField>
+						<CheckBoxField name="ОшибкиЕстьЗамена" id="14">
+							<DataPath>Ошибки.ЕстьЗамена</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОшибкиЕстьЗаменаКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ОшибкиЕстьЗаменаРасширеннаяПодсказка" id="16"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Table>
+				<TextDocumentField name="Исходник" id="73">
+					<DataPath>Исходник</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ИсходникКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ИсходникРасширеннаяПодсказка" id="75"/>
+				</TextDocumentField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Радар_Навигатор</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Ошибки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>Ошибки.ПозицияКонца</Field>
+				<Field>Ошибки.ПозицияНачала</Field>
+				<Field>Ошибки.Путь</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<AutoFillAvailableFields>false</AutoFillAvailableFields>
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Радар_ПроверкиСрезПоследних.Проект КАК Проект,
+	Радар_ПроверкиСрезПоследних.Модуль КАК Модуль,
+	Радар_ПроверкиСрезПоследних.Регистратор КАК Регистратор,
+	Радар_ПроверкиСрезПоследних.Путь КАК Путь,
+	Радар_Ошибки.Текст КАК Текст,
+	Радар_Ошибки.ПозицияНачала КАК ПозицияНачала,
+	Радар_Ошибки.НомерСтрокиНачала КАК НомерСтрокиНачала,
+	Радар_Ошибки.ПозицияКонца КАК ПозицияКонца,
+	Радар_Ошибки.ЕстьЗамена КАК ЕстьЗамена,
+	Радар_Ошибки.Источник КАК Источник,
+	Радар_Ошибки.МинутНаИсправление КАК МинутНаИсправление,
+	Радар_Ошибки.Серьезность КАК Серьезность,
+	Радар_Ошибки.Приоритет КАК Приоритет,
+	Радар_Ошибки.Правило КАК Правило,
+	Радар_Ошибки.Тип КАК Тип
+{ВЫБРАТЬ
+	Проект.*,
+	Модуль.*,
+	Регистратор.*,
+	Путь,
+	Текст,
+	ПозицияНачала,
+	НомерСтрокиНачала,
+	ПозицияКонца,
+	ЕстьЗамена,
+	Источник,
+	МинутНаИсправление,
+	Серьезность,
+	Приоритет,
+	Правило,
+	Тип}
+ИЗ
+	РегистрСведений.Радар_Проверки.СрезПоследних(, {(Проект), (Модуль)}) КАК Радар_ПроверкиСрезПоследних
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.Радар_Ошибки КАК Радар_Ошибки
+		ПО Радар_ПроверкиСрезПоследних.Регистратор = Радар_Ошибки.Регистратор
+			И Радар_ПроверкиСрезПоследних.Проект = Радар_Ошибки.Проект
+			И Радар_ПроверкиСрезПоследних.Модуль = Радар_Ошибки.Модуль
+ГДЕ
+	НЕ Радар_ПроверкиСрезПоследних.НеОбнаружен
+{ГДЕ
+	Радар_ПроверкиСрезПоследних.Проект.*,
+	Радар_ПроверкиСрезПоследних.Модуль.*,
+	Радар_ПроверкиСрезПоследних.Регистратор.*,
+	Радар_ПроверкиСрезПоследних.Путь,
+	Радар_Ошибки.Текст,
+	Радар_Ошибки.ПозицияНачала,
+	Радар_Ошибки.НомерСтрокиНачала,
+	Радар_Ошибки.ПозицияКонца,
+	Радар_Ошибки.ЕстьЗамена,
+	Радар_Ошибки.Источник,
+	Радар_Ошибки.МинутНаИсправление,
+	Радар_Ошибки.Серьезность,
+	Радар_Ошибки.Приоритет,
+	Радар_Ошибки.Правило,
+	Радар_Ошибки.Тип}</QueryText>
+				<MainTable>InformationRegister.Радар_Ошибки</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Проект</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:userSettingID>1d85b449-8ebc-4c26-b654-696353855fd4</dcsset:userSettingID>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Исходник" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПутьИсходника" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь исходника</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
