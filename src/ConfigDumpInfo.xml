@@ -14,7 +14,7 @@
 		</Metadata>
 		<Metadata name="Catalog.Радар_Плагины.Form.ФормаЭлемента" id="ab0367ca-8921-4fa8-90b8-c75b3bc98185" configVersion="cb40dc972b7edf4be38cdfa312d6e34920dc1a5c"/>
 		<Metadata name="Catalog.Радар_Плагины.Form.ФормаЭлемента.Form" id="ab0367ca-8921-4fa8-90b8-c75b3bc98185.0" configVersion="2dff24325543c30f4b8ab15e15230c9b248ba719"/>
-		<Metadata name="Catalog.Радар_Проекты" id="fe4d773f-1c4f-4703-9272-c0496c4b966f" configVersion="ff1969fcfc6fa95d9621c45d6de7132a867d2e7c">
+		<Metadata name="Catalog.Радар_Проекты" id="fe4d773f-1c4f-4703-9272-c0496c4b966f" configVersion="ccc4efd99c741d504f1feec5087a7b83e85c35c7">
 			<Metadata name="Catalog.Радар_Проекты.Command.ВыполнитьАнализ" id="07f461b6-bcf5-4f04-8c98-d4eb9575db08"/>
 			<Metadata name="Catalog.Радар_Проекты.Command.ВыгрузитьОшибкиВСонар" id="1b220690-fb47-4406-8317-4757aa808077"/>
 			<Metadata name="Catalog.Радар_Проекты.Attribute.ФорматВыгрузки" id="49ee38e8-c3ca-46ca-8538-1c8648f1f437"/>
@@ -30,8 +30,8 @@
 		<Metadata name="Catalog.Радар_Проекты.Form.ФормаСписка" id="cba26ade-f38d-4580-9cf9-62a0fce82335" configVersion="32d223947af37314a0d41bf47e6e8de1b0941be8"/>
 		<Metadata name="Catalog.Радар_Проекты.Form.ФормаСписка.Form" id="cba26ade-f38d-4580-9cf9-62a0fce82335.0" configVersion="416a145fd242d1fc2ed8098d2273de0f93cbb8f0"/>
 		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента" id="4ffe7d63-7e29-4148-a61e-8c138677fe29" configVersion="deecc215a79ab01928e1cfefe63dcc3b207bf47c"/>
-		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента.Form" id="4ffe7d63-7e29-4148-a61e-8c138677fe29.0" configVersion="1bbae6d8755aca2a162c435421891ff44e8ec11a"/>
-		<Metadata name="Catalog.Радар_Проекты.ObjectModule" id="fe4d773f-1c4f-4703-9272-c0496c4b966f.0" configVersion="d1488b7ba6cf486ac1fbf6377627de6045f2a91f"/>
+		<Metadata name="Catalog.Радар_Проекты.Form.ФормаЭлемента.Form" id="4ffe7d63-7e29-4148-a61e-8c138677fe29.0" configVersion="fdb89618af1e5431304e58e58c93a78a8874f407"/>
+		<Metadata name="Catalog.Радар_Проекты.ObjectModule" id="fe4d773f-1c4f-4703-9272-c0496c4b966f.0" configVersion="b2ec3d28ac800cde806e7cc50a308adb96baa146"/>
 		<Metadata name="CommonModule.Радар_Задания" id="23a6b190-3fa9-4309-a180-2f2f9e12f044" configVersion="6781a314339b946078882cd48efde059fea6f5fd"/>
 		<Metadata name="CommonModule.Радар_Задания.Module" id="23a6b190-3fa9-4309-a180-2f2f9e12f044.0" configVersion="0e37c6876bacc0fbc2ee241474c0370f58986a7d"/>
 		<Metadata name="CommonModule.Радар_Клиент" id="e1abdb7d-bb2b-4df0-90e1-26e3b736d437" configVersion="f0d7be0bccd240be3d08cc549494d76a2424039a"/>
