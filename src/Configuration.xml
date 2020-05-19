@@ -63,6 +63,7 @@
 			<CommonModule>Радар_Типы</CommonModule>
 			<CommonModule>Радар_Сервер</CommonModule>
 			<CommonModule>Радар_Клиент</CommonModule>
+			<CommonModule>Радар_КлиентСервер</CommonModule>
 			<Catalog>Радар_Плагины</Catalog>
 			<Catalog>Радар_Модули</Catalog>
 			<Catalog>Радар_Проекты</Catalog>

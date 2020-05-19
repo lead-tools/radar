@@ -18,6 +18,11 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ФорматВыгрузки" id="10">
+			<DataPath>Объект.ФорматВыгрузки</DataPath>
+			<ContextMenu name="ФорматВыгрузкиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ФорматВыгрузкиРасширеннаяПодсказка" id="12"/>
+		</InputField>
 		<InputField name="ПутьВыгрузки" id="7">
 			<DataPath>Объект.ПутьВыгрузки</DataPath>
 			<ChoiceButton>true</ChoiceButton>
@@ -27,29 +32,103 @@
 				<Event name="StartChoice">ПутьВыгрузкиНачалоВыбора</Event>
 			</Events>
 		</InputField>
-		<InputField name="ФорматВыгрузки" id="10">
-			<DataPath>Объект.ФорматВыгрузки</DataPath>
-			<ContextMenu name="ФорматВыгрузкиКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ФорматВыгрузкиРасширеннаяПодсказка" id="12"/>
-		</InputField>
 		<CheckBoxField name="ВнешняяКонфигурация" id="13">
 			<DataPath>Объект.ВнешняяКонфигурация</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ВнешняяКонфигурацияКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ВнешняяКонфигурацияРасширеннаяПодсказка" id="15"/>
+			<ExtendedTooltip name="ВнешняяКонфигурацияРасширеннаяПодсказка" id="15">
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Если Радар установлен не на анализируемой конфигурации, то этот переключатель должен быть включен. Дополнительно потребуется указать путь к файлу конфигурации.</v8:content>
+					</v8:item>
+				</Title>
+			</ExtendedTooltip>
 			<Events>
 				<Event name="OnChange">ВнешняяКонфигурацияПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
 		<InputField name="ПутьКонфигурации" id="16">
 			<DataPath>Объект.ПутьКонфигурации</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="ПутьКонфигурацииКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ПутьКонфигурацииРасширеннаяПодсказка" id="18"/>
+			<ExtendedTooltip name="ПутьКонфигурацииРасширеннаяПодсказка" id="18">
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Путь к файлу *.cf или *.cfe при анализе внешней конфигурации.
+Метаданные будут анализироваться по данным этого файла.</v8:content>
+					</v8:item>
+				</Title>
+			</ExtendedTooltip>
 			<Events>
 				<Event name="StartChoice">ПутьКонфигурацииНачалоВыбора</Event>
 			</Events>
 		</InputField>
+		<CheckBoxField name="ИспользоватьМногопоточность" id="19">
+			<DataPath>Объект.ИспользоватьМногопоточность</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьМногопоточностьКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ИспользоватьМногопоточностьРасширеннаяПодсказка" id="21">
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Многопоточный анализ выполняется с помощью фоновых заданий. Доступен только в клиент-серверном варианте.</v8:content>
+					</v8:item>
+				</Title>
+			</ExtendedTooltip>
+			<Events>
+				<Event name="OnChange">ИспользоватьМногопоточностьПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаНастройкиМногопоточногоАнализа" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки многопоточного анализа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки многопоточного анализа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаНастройкиМногопоточногоАнализаРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="МаксимумПотоков" id="22">
+					<DataPath>Объект.МаксимумПотоков</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="МаксимумПотоковКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="МаксимумПотоковРасширеннаяПодсказка" id="24">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Число, которое ограничивает количество фоновых заданий, выполняющихся одновременно. Рекомендуется ставить не больше общего количества ядер процессоров сервера.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</InputField>
+				<InputField name="РазмерПартии" id="25">
+					<DataPath>Объект.РазмерПартии</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="РазмерПартииКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="РазмерПартииРасширеннаяПодсказка" id="27">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество модулей, которое берет одно фоновое задание. Деление на партии необходимо по двум причинам:
+1. Если общее количество модулей поделить на количество потоков, то в результате время анализа может сильно увеличиться, т.к. работа по потокам будет распределена неравномерно. Это происходит потому что неизвестно заранее сколько ресурсов потребует разбор каждого модуля.
+2. Если на каждый модуль создавать фоновое задание, то слишком много ресурсов будет уходить на создание и уничтожение самих фоновых заданий.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -58,6 +137,17 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ЭтоФайловаяБаза" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это файловая база</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<CommandInterface>
