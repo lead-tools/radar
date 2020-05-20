@@ -57,7 +57,7 @@
 		<Metadata name="DataProcessor.Радар_ПарсерВстроенногоЯзыка" id="5be0e07f-bab9-473f-8b36-f6525053897d" configVersion="90f258bff70a003927ccf07748ae321cfc2c843c"/>
 		<Metadata name="DataProcessor.Радар_ПарсерВстроенногоЯзыка.ObjectModule" id="5be0e07f-bab9-473f-8b36-f6525053897d.0" configVersion="afce8dd24ae200d379c1caa7ce1a490762238f5b"/>
 		<Metadata name="DataProcessor.Радар_Посетитель" id="9cf0ac94-4768-4f49-8978-9e7532b6306b" configVersion="1299a950c934388db04464ffbc39fc5e7c8c9b7a"/>
-		<Metadata name="DataProcessor.Радар_Посетитель.ObjectModule" id="9cf0ac94-4768-4f49-8978-9e7532b6306b.0" configVersion="bbd68d5a4874776b8708c774584cdd9c5f65b0f0"/>
+		<Metadata name="DataProcessor.Радар_Посетитель.ObjectModule" id="9cf0ac94-4768-4f49-8978-9e7532b6306b.0" configVersion="c32f1793a4b36853da89e8eac45295463641ecdf"/>
 		<Metadata name="Document.Радар_Отчет" id="4f2b4fb8-dac8-42c2-9537-348b9539157b" configVersion="e232849700cbf63eba5cf37eb4a450c5d1e927ee">
 			<Metadata name="Document.Радар_Отчет.Attribute.Проект" id="2bcd4fbc-2239-4449-afa7-8eb7acd75d2f"/>
 		</Metadata>
