@@ -6,17 +6,17 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>17a3926a-bc6b-48a9-8d72-d9c607949bae</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.ВложенныйТернарныйОператор" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.ВыражениеСодержитНесколькоТернарныхОператоров" category="Object">
 				<xr:TypeId>8976ede7-4ff0-42c2-a8bc-0d19826c320a</xr:TypeId>
 				<xr:ValueId>bd29cd44-aca3-4faf-bb04-da2c8e044ea9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВложенныйТернарныйОператор</Name>
+			<Name>ВыражениеСодержитНесколькоТернарныхОператоров</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вложенный тернарный оператор</v8:content>
+					<v8:content>Выражение содержит несколько тернарных операторов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
